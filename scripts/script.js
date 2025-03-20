@@ -29,7 +29,7 @@ function scanQRCode() {
     requestAnimationFrame(scanQRCode);
 }
 
-fetch('https://script.google.com/macros/s/AKfycbyKlri0aWArVbNC53AxV__dLqHBM-Ytt1wVS3NnBcHk/exec')
+fetch('https://script.google.com/macros/s/AKfycbyH4fd5GMlb7bv-4M_WlPx-kbJ-ZSSlVIDfVwo511R_63vuQnQMofGCflshCdm0JhAhpQ/exec')
   .then(response => response.json())  // Convert the response to JSON
   .then(data => {
     console.log(data);  // Log the data from Google Sheets (for testing)
